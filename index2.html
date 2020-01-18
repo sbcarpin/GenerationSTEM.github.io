@@ -1,0 +1,26 @@
+<canvas id="myCanvas" width="500" height="500" style="border:10px solid #000000;">
+</canvas>
+
+<html lang="en-us">
+<meta charset="utf-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title>Unity WebGL Player | GenerationSTEM</title>
+    <link rel="shortcut icon" href="TemplateData/favicon.ico">
+    <link rel="stylesheet" href="TemplateData/style.css">
+    <script src="TemplateData/UnityProgress.js"></script>  
+    <script src="Build/UnityLoader.js"></script>
+    <script>
+      var gameInstance = UnityLoader.instantiate("gameContainer", "Build/test.json", {onProgress: UnityProgress});
+    </script>
+  </head>
+  <body>
+    <div> <!--class="webgl-content"-->
+      <div id="gameContainer" style="width: 960px; height: 600px; position: absolute; padd"></div>
+      <div class="footer">
+        <div class="webgl-logo"></div>
+        <div class="fullscreen" onclick="gameInstance.SetFullscreen(1)"></div>
+        <div class="title">GenerationSTEM</div>
+      </div>
+    </div>
+  </body>
+ </html>
