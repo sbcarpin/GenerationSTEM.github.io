@@ -2,7 +2,7 @@
 .menu_block  {
 	z-index: 999;
 	float: right;
-	padding-top: 1px;
+	padding-top: 7px;
 	position: relative;
 
 }
@@ -68,7 +68,7 @@ nav{ position:relative;padding: 0px 0 0 0;}
 }
 
 .sf-menu>li+li+li+li+li>a {
-	background-color: #04bacf;
+	background-color: #2D728F;
 }
 
 .sf-menu>li+li+li+li+li+li>a {
