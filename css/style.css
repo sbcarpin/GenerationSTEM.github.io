@@ -277,7 +277,7 @@ a.btn:hover {
 /*header*/
 
 .main {
-    width: 1050px;
+    width: 1150px;
     margin: 0 auto 57px;
     padding-top: 53px;
     background-color: #fff;
@@ -290,8 +290,7 @@ header {
     padding-top: 24px;
     padding-bottom: 16px;
     position: relative;
-    background: #00B3B3; 
-
+    background: #00B3B3;
 }
 
 
@@ -330,7 +329,7 @@ header h1 a img {
 
 
 .page1  .content {
-    padding-bottom: 75px;
+    padding-bottom: 200px;
 }
 
 
@@ -354,12 +353,19 @@ a.donate:hover {
 
 .text1 {
     font: 300 20px/20px 'Open Sans', Roboto Slab;
+    width: 360;
+    height: 200;
+    margin-left: 10px; 
+    margin-right: 10px; 
+    color:  white;
+    text-align: center;
 }
 
 .page1 .text1 {
-    padding-top: 42px;
+    padding-top: 39px;
     margin-bottom: 39px;
 }
+
 
 
 .col1 {
@@ -642,6 +648,8 @@ a.donate:hover {
 }
 
 
+
+
 a.link-1 {
     color: #4cb6c5;
     text-decoration: underline;
@@ -654,7 +662,7 @@ a.link-1:hover {
 footer {
 	display: block;
     position: relative;
-    z-index: 10;
+    z-index: 20;
     text-align: left;
     color: #625f5f;
     border-top: 1px solid #d8d5d5;
@@ -746,6 +754,106 @@ footer {
     outline: none;
     background-position: right 0;
 }
+
+/* ========================== new background for sections ==================================*/
+.background_01 {
+    background: #C9FBFF;
+    position: relative;
+    left: 0px;
+    width: 1050px;
+    height: 717px;
+}
+
+#special {
+    background: #00B3B3;
+    margin-right: 0px;
+}
+
+#grid7home {
+    margin-left: 0px;
+}
+
+.background_02 {
+    background: #C9FBFF;
+    position: relative;
+    left: 0px;
+    top: 50px;
+    width: 1050px;
+    height: 970px;
+}
+
+#tealBlock {
+    background: #2D728F;
+    margin-right: 0px;
+    height: 200;
+    margin-bottom: 0px;
+}
+
+#creamBlock {
+    background: #73BFB8;
+    margin-left: 0px;
+    height: 200;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+#blueishBlock {
+    background: #15A4A7;
+    margin-left: 0px;
+    height: 200;
+    margin-top: 0px;
+}
+
+.pairs {
+    height: 276px;
+}
+
+#removeBottomLeftPad {
+    margin-bottom: 0px;
+    margin-left: 0px;
+}
+#removeThreePad {
+    margin-bottom: 0px;
+    margin-top: 0px;
+    margin-right: 0px;
+}
+#removeTopRightPad {
+    margin-top: 0px;
+    
+    margin-right: 0px;
+}
+.circleArea {
+    position: relative;
+    top: 125px;
+    margin: 0 auto;
+}
+
+.circleArea .circle {
+    width: 364px;
+    height: 348px;
+    border-radius: 50%;
+    left: 255px;
+    top: 1708px;
+    background: #2D728F;
+    text-align: center;
+    display: block;
+    float: right;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.5);
+}
+
+.TealTitle {
+    position: relative;
+    width: 630px;
+    height: 75px;
+    background: #2D728F;
+    padding-top: 39px;
+    margin: 0 auto;
+    left: 15px;
+    align-content: center;
+}
+
+
+
 /*==================================RESPONSIVE LAYOUTS===============================================*/
 
 @media only screen and (max-width: 1060px) {
@@ -850,6 +958,23 @@ footer {
     border-width: 30px 0 30px 40px;
     border-color: transparent transparent transparent #ff5141;
 
+}
+
+.background_01 {
+    background: #C9FBFF;
+    position: relative;
+    left: 0px;
+    width: 800px;
+    height: 320px;
+}
+
+.background_02 {
+    background: #C9FBFF;
+    position: relative;
+    left: 0px;
+    top: 50px;
+    width: 800px;
+    height: 500px;
 }
 
 }
