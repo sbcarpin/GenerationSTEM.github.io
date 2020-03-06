@@ -90,14 +90,16 @@ h1, h2, h3, h4, h5, h6 {
 h2 {
     font-size: 36px;
     line-height: 36px;
-    text-transform: uppercase;
-    color: #0052da;
+    color: white;
     margin-top: -3px;
     margin-bottom: 38px;
+    align-content: center;
 }
 
 .page1 h2 {
-    padding-top: 65px;
+    font-size: 40px;
+    padding-top: 130px;
+    padding-bottom: 130px;
     margin-bottom: 0;
     margin-top: 0;
 }
@@ -690,6 +692,15 @@ a.link-1 {
 a.link-1:hover {
     color: #800080;
 }
+
+a.link-2 {
+    color: white;
+}
+
+a.link-2:hover {
+    color: #800080;
+}
+
 /**Footer**/
 footer {
 	display: block;
@@ -886,7 +897,7 @@ footer {
     display: block;
     float: right;
     box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.5);
-    margin-right: 35px;
+    margin-right: 50px;
 }
 
 .circleArea .circle2 {
@@ -900,7 +911,7 @@ footer {
     display: block;
     float: right;
     box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.5);
-    margin-right: 245px;
+    margin-right: 225px;
 }
 
 .TealTitle {
@@ -1232,6 +1243,7 @@ header h1 {
     margin-bottom: 30px;
 }
 }
+
 @media only screen and (max-width: 479px) {
  body {
  min-width: 300px;
