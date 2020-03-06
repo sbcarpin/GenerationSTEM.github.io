@@ -656,12 +656,12 @@ a.donate:hover {
 
 
 a.link-1 {
-    color: #4cb6c5;
+    color: white;
     text-decoration: underline;
 }
 
 a.link-1:hover {
-    color: #ed2c67;
+    color: #800080;
 }
 /**Footer**/
 footer {
@@ -862,14 +862,25 @@ footer {
     position: relative;
     left: 0px;
     width: 1050px;
-    height: 310px;
+    height: 220px;
 }
 
 .TextArea {
+    width: 1000px;
+    top: 30px;
     background: #00B3B3;
-    margin-right: 0px;
+    margin: 0 auto;
+    padding-top: 39px;
+    padding-bottom: 30px;
 }
 
+.background_04 {
+    background: #C9FBFF;
+    position: relative;
+    left: 0px;
+    width: 1050px;
+    height: 620px;
+}
 
 /*==================================RESPONSIVE LAYOUTS===============================================*/
 
@@ -992,6 +1003,14 @@ footer {
     top: 50px;
     width: 800px;
     height: 500px;
+}
+
+.background_03 {
+    background: #C9FBFF;
+    position: relative;
+    left: 0px;
+    width: 800px;
+    height: 110px;
 }
 
 }
