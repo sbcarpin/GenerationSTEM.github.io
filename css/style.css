@@ -263,9 +263,17 @@ a.btn:hover {
 .alright {
 	text-align: right;
 }
+
 .center {
-	text-align: center;
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    width: 50%;
 }
+
+
 .wrapper, .extra_wrapper {
 	overflow: hidden;
 }
@@ -362,6 +370,8 @@ a.donate:hover {
     height: 200;
     margin-left: 10px; 
     margin-right: 10px; 
+    margin-top: 15px; 
+    margin-bottom: 5px; 
     color:  white;
     text-align: center;
 }
@@ -413,6 +423,10 @@ a.donate:hover {
 
 .pad1 {
     padding-left: 30px;
+}
+
+.padTop {
+    padding-top: 20px;
 }
 
 .video {
@@ -863,12 +877,23 @@ footer {
     left: 0px;
     width: 1050px;
     height: 220px;
+    left: -20px;
 }
 
 .TextArea {
     width: 1000px;
     top: 30px;
-    background: #00B3B3;
+    background: #3A9093;
+    margin: 0 auto;
+    padding-top: 39px;
+    padding-bottom: 30px;
+}
+
+/* diff color*/
+.TextArea02 {
+    width: 1000px;
+    top: 30px;
+    background: #73BFB8;
     margin: 0 auto;
     padding-top: 39px;
     padding-bottom: 30px;
@@ -879,7 +904,12 @@ footer {
     position: relative;
     left: 0px;
     width: 1050px;
-    height: 620px;
+    height: 840px;
+    left: -20px;
+}
+
+#padLeft {
+    left: -11px;
 }
 
 /*==================================RESPONSIVE LAYOUTS===============================================*/
