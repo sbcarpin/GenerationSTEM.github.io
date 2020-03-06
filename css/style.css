@@ -376,6 +376,18 @@ a.donate:hover {
     text-align: center;
 }
 
+.textp02 {
+    font: 300 20px/20px 'Open Sans', Roboto Slab;
+    width: 360;
+    height: 200;
+    margin-left: 10px; 
+    margin-right: 10px; 
+    margin-top: 100px; 
+    margin-bottom: 100px; 
+    color:  white;
+    text-align: center;
+}
+
 .page1 .text1 {
     padding-top: 143.5px;
     margin-bottom: 143.5px;
@@ -801,29 +813,39 @@ footer {
     left: 0px;
     top: 50px;
     width: 1050px;
-    height: 970px;
+    height: 900px;
 }
 
 #tealBlock {
     background: #2D728F;
-    margin-right: 0px;
     height: 200;
+    width: 510px;
+    padding-top: 10.5px;
+    padding-bottom: 10.5px;
+    margin-left: 31px;  
+    margin-top: 15px;
     margin-bottom: 0px;
 }
 
 #creamBlock {
     background: #73BFB8;
-    margin-left: 0px;
     height: 200;
+    width: 475px;
+    padding-top: 10.5px;
+    padding-bottom: 10.5px;
+    margin-left: 0px;
     margin-top: 0px;
-    margin-bottom: 0px;
+    margin-bottom: 0px;    
 }
 
 #blueishBlock {
     background: #15A4A7;
-    margin-left: 0px;
+    margin-right: 0px;
     height: 200;
     margin-top: 0px;
+    margin-left: 31px; 
+    padding-top: 1px;
+    padding-bottom: 1px;
 }
 
 .pairs {
@@ -831,26 +853,29 @@ footer {
 }
 
 #removeBottomLeftPad {
-    margin-bottom: 0px;
+    margin-top: 15px;
     margin-left: 0px;
+    padding-right: 0px;
 }
 #removeThreePad {
     margin-bottom: 0px;
     margin-top: 0px;
-    margin-right: 0px;
+    margin-left: 31px; 
 }
-#removeTopRightPad {
+#removeTopLeftPad {
     margin-top: 0px;
-    
-    margin-right: 0px;
+    margin-left: 0px;
+    margin-right: 34px;
 }
+
+
 .circleArea {
     position: relative;
     top: 125px;
     margin: 0 auto;
 }
 
-.circleArea .circle {
+.circleArea .circle1 {
     width: 364px;
     height: 348px;
     border-radius: 50%;
@@ -861,6 +886,21 @@ footer {
     display: block;
     float: right;
     box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.5);
+    margin-right: 35px;
+}
+
+.circleArea .circle2 {
+    width: 364px;
+    height: 348px;
+    border-radius: 50%;
+    left: 255px;
+    top: 1708px;
+    background: #2D728F;
+    text-align: center;
+    display: block;
+    float: right;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.5);
+    margin-right: 245px;
 }
 
 .TealTitle {
@@ -869,6 +909,7 @@ footer {
     height: 65px;
     background: #2D728F;
     padding-top: 30px;
+    padding-right: 50px;
     margin: 0 auto;
     left: 15px;
     align-content: center;
@@ -914,6 +955,7 @@ footer {
 #padLeft {
     left: -11px;
 }
+
 
 /*==================================RESPONSIVE LAYOUTS===============================================*/
 
