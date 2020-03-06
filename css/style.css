@@ -857,6 +857,18 @@ footer {
     align-content: center;
 }
 
+.background_03 {
+    background: #C9FBFF;
+    position: relative;
+    left: 0px;
+    width: 1050px;
+    height: 310px;
+}
+
+.TextArea {
+    background: #00B3B3;
+    margin-right: 0px;
+}
 
 
 /*==================================RESPONSIVE LAYOUTS===============================================*/
