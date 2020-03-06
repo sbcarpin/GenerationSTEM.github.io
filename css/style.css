@@ -82,7 +82,7 @@ img {
 
 
 h1, h2, h3, h4, h5, h6 {
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Open Sans', Roboto Slab;
 	color: #1a1a1a;
     font-weight: normal;
 }
@@ -106,9 +106,14 @@ h3 {
     font-size: 30px;
     line-height: 30px;
     padding-top: 2px;
-    text-transform: uppercase;
-    color: #0052da;
     margin-bottom: 39px;
+
+    width: 360;
+    height: 200;
+    margin-left: 10px; 
+    margin-right: 10px; 
+    color:  black;
+    text-align: center;
 }
 
 .page1 h3 {
@@ -122,12 +127,12 @@ h3.head1 {
 }
 
 h4 {
-    font-size: 22px;
+    font-size: 30px;
     line-height: 20px;
-    padding-top: 48px;
-    text-transform: uppercase;
-    color: #0052da;
-    margin-bottom: 28px;
+    padding-top: 10px;
+    color: white;
+    padding-bottom: 15px;
+    text-align: center;
 }
 
 h4.head1 {
@@ -407,7 +412,7 @@ a.donate:hover {
 }
 
 .pad1 {
-    padding-right: 30px;
+    padding-left: 30px;
 }
 
 .video {
@@ -844,9 +849,9 @@ footer {
 .TealTitle {
     position: relative;
     width: 630px;
-    height: 75px;
+    height: 65px;
     background: #2D728F;
-    padding-top: 39px;
+    padding-top: 30px;
     margin: 0 auto;
     left: 15px;
     align-content: center;
