@@ -914,6 +914,10 @@ footer {
     margin-right: 225px;
 }
 
+#movedown {
+    top: 100px;
+}
+
 .TealTitle {
     position: relative;
     width: 630px;
