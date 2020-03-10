@@ -146,6 +146,7 @@ h4.head1 {
 
 ul {
 	padding: 0;
+    padding-top: -15px;
 	margin: 0;
 	list-style: none;
 }
@@ -155,9 +156,9 @@ ul {
 
 ul.list li {
     padding-left: 28px;
-    font-size: 14px;
-    background: url(../images/marker.png) 0 8px no-repeat;
-    text-transform: uppercase;
+    font-size: 18px;
+    /*background: url(../images/marker.png) 0 8px no-repeat;
+    text-transform: uppercase;*/
 }
 
 ul.list li  a {
@@ -389,6 +390,18 @@ a.donate:hover {
     margin-bottom: 100px; 
     color:  white;
     text-align: center;
+}
+
+.textMaterials {
+    font: 300 20px/20px 'Open Sans', Roboto Slab;
+    width: 360;
+    height: 200;
+    margin-left: 10px; 
+    margin-right: 10px; 
+    margin-top: 15px; 
+    margin-bottom: 5px; 
+    color:  white;
+    text-align: left;
 }
 
 .page1 .text1 {
@@ -934,7 +947,6 @@ footer {
 .background_03 {
     background: #C9FBFF;
     position: relative;
-    left: 0px;
     width: 1050px;
     height: 220px;
     left: -20px;
@@ -942,7 +954,7 @@ footer {
 
 .TextArea {
     width: 1000px;
-    top: 30px;
+    top: -50px;
     background: #3A9093;
     margin: 0 auto;
     padding-top: 39px;
@@ -957,6 +969,26 @@ footer {
     margin: 0 auto;
     padding-top: 39px;
     padding-bottom: 30px;
+}
+
+/* diff padding*/
+.TextArea03 {
+    width: 1000px;
+    top: 30px;
+    background: #3A9093;
+    margin: 0 auto;
+    padding-top: 23px;
+    padding-bottom: 27px;
+}
+
+.materialsClickArea {
+    width: 1000px;
+    height: 735px;
+    top: 30px;
+    background: #3A9093;
+    margin: 0 auto;
+    padding-top: 23px;
+    padding-bottom: 27px;
 }
 
 .background_04 {
