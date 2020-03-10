@@ -26,8 +26,8 @@ body {
 	position: relative;
 	min-width: 1050px;
     background: url(../images/bg_body.png) 0 0 repeat #f9f9f6;
-    color: #4c4c4c;
-    font: 14px/20px Arial, Helvetica, sans-serif;
+    color: white;
+    font: 14px/20px 'Open Sans', Roboto Slab;
 }
 
 .ic {
@@ -997,6 +997,16 @@ footer {
     left: 0px;
     width: 1050px;
     height: 840px;
+    left: -20px;
+}
+
+/*diff hieght*/
+.background_05 {
+    background: #C9FBFF;
+    position: relative;
+    left: 0px;
+    width: 1050px;
+    height: 520px;
     left: -20px;
 }
 
