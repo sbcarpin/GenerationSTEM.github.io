@@ -1059,6 +1059,28 @@ footer {
     left: -11px;
 }
 
+.AUBackground {
+    background: #115F7F;
+    position: relative;
+    height: 635px;
+}
+
+.container {
+  position: relative;
+  text-align: center;
+  color: white;
+  height:635px;
+}
+
+.imageContainer {
+       width:1050px; 
+       height:672px; 
+       background-image: url(../images/Team_1_Logo.png);
+ }
+
+ #movedown {
+    margin-top: 125px;
+ }
 
 /*==================================RESPONSIVE LAYOUTS===============================================*/
 
@@ -1357,5 +1379,15 @@ header h1 {
 .flex-direction-nav li a {
     margin-top: 40px;
 }
+
+
+
+/* Bottom right text */
+.bottom-right {
+  position: absolute;
+  bottom: 8px;
+  right: 16px;
+}
+
 
 }
