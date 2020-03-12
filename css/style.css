@@ -1059,6 +1059,10 @@ footer {
     left: -11px;
 }
 
+#padLeftab {
+    left: -11px;
+}
+
 .AUBackground {
     background: #115F7F;
     position: relative;
