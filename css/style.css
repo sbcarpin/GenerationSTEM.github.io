@@ -1052,6 +1052,14 @@ footer {
     left: -20px;
 }
 
+.background_035 {
+    background: #C9FBFF;
+    position: relative;
+    width: 1050px;
+    height: 265px;
+    left: -20px;
+}
+
 .TextArea {
     width: 1000px;
     background: #3A9093;
@@ -1115,7 +1123,7 @@ footer {
     position: relative;
     left: 0px;
     width: 1050px;
-    height: 710px;
+    height: 740px;
     left: -20px;
 }
 
