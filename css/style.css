@@ -1128,6 +1128,15 @@ footer {
     left: -20px;
 }
 
+.activity_background {
+    background: #C9FBFF;
+    position: relative;
+    left: 0px;
+    width: 1050px;
+    height: 1110px;
+    left: -20px;
+}
+
 #padLeft {
     left: -11px;
 }
