@@ -431,6 +431,10 @@ a.donate:hover {
     text-align: left;
 }
 
+#textAU {
+    margin-right: -10px;
+}
+
 .textAboutUs {
     font: 300 20px/20px 'Roboto Slab';
     width: 360;
@@ -445,6 +449,17 @@ a.donate:hover {
 
 #education {
     margin-left: 40px;
+}
+
+#moreMarginLeft {
+    margin-top: 80px;
+    margin-left: 50px;
+}
+
+#roots {
+    margin-top: 120px;
+    margin-left: 30px;
+    padding-right: 70px;
 }
 
 #AUmoveright {
@@ -1125,6 +1140,46 @@ footer {
     background: #115F7F;
     position: relative;
     height: 635px;
+}
+
+.tableStyle {
+    align-content: center;
+    text-align: center;
+    color: white;
+    font: 100 25px/20px 'Open Sans', Roboto Slab;
+}
+
+.tableTitle {
+    width: 522px;
+    background: #3A9093;
+    padding-top: 35px;
+    padding-bottom: 35px;
+}
+
+.tableInfo {
+    font: 100 20px/20px 'Open Sans', Roboto Slab;
+    text-align: left;
+    width: 510px;
+    margin-top: 3px;
+    margin-bottom: 1px;
+   /* margin-left: 3px;*/
+    background: #73BFB8;
+    padding-top: 25px;
+    padding-bottom: 15px;
+    padding-left: 10px;
+}
+
+.lessSpacing {
+    /*margin-top: 5px;*/
+    margin-bottom: 7px;
+}
+
+#contactpad {
+    margin-left: -20px;
+}
+
+#contactright {
+    padding-left: 37px;
 }
 
 .container {
