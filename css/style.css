@@ -287,6 +287,35 @@ a.btn:hover {
     width: 50%;
 }
 
+.leftcenter {
+    text-align: center;
+    display: block;
+    margin-right: auto;
+    margin-top: 110px;
+    width: 100%;
+}
+
+.rightcenter {
+    text-align: center;
+    display: block;
+    margin-left: 75px;
+    margin-top: 100px;
+    width: 100%;
+}
+
+#paddown {
+    margin-top: 130px;
+}
+
+#padSTEM {
+    margin-top: 140px;
+    padding-right: 10px;
+}
+
+#middlegap {
+    margin-top: 85px;
+}
+
 
 .wrapper, .extra_wrapper {
 	overflow: hidden;
@@ -400,6 +429,26 @@ a.donate:hover {
     margin-bottom: 5px; 
     color:  white;
     text-align: left;
+}
+
+.textAboutUs {
+    font: 300 20px/20px 'Roboto Slab';
+    width: 360;
+    height: 200;
+    /*margin-left: 1px;*/
+    /*margin-right: 15px; */
+    margin-top: 20px; 
+    margin-bottom: 40px; 
+    color:  black;
+    text-align: left;
+}
+
+#education {
+    margin-left: 40px;
+}
+
+#AUmoveright {
+    margin-left: 10px;
 }
 
 .centerMaterials {
