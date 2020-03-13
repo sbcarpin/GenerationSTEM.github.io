@@ -1018,7 +1018,7 @@ footer {
 
 .materialsClickArea {
     width: 1000px;
-    height: 735px;
+    height: 790px;
     top: 30px;
     background: #3A9093;
     margin: 0 auto;
@@ -1052,6 +1052,15 @@ footer {
     left: 0px;
     width: 1050px;
     height: 710px;
+    left: -20px;
+}
+
+.longest_background {
+    background: #C9FBFF;
+    position: relative;
+    left: 0px;
+    width: 1050px;
+    height: 880px;
     left: -20px;
 }
 
