@@ -1123,7 +1123,7 @@ footer {
     position: relative;
     left: 0px;
     width: 1050px;
-    height: 740px;
+    height: 840px;
     left: -20px;
 }
 
@@ -1146,6 +1146,14 @@ footer {
 }
 
 #padLeft {
+    left: -11px;
+}
+
+#padLeft01 {
+    left: -11px;
+}
+
+#padLeft02 {
     left: -11px;
 }
 
