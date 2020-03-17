@@ -15,8 +15,9 @@ HTML files:
 2. index-1.html - teachers page that acts as a teachers handbook
 3. StudentsPage.html - students page with unity projects in them (intro animation and cue tutorial)
 4. index-2.html - materials page 
-5.index-3.html - about us page
-
+5. index-3.html - about us page
+6. Tutorial.html - has the unity project of Cue Robot Tutorial
+ 
 Folders:
 
 -Build: contains all the files from the built Introduction Animation project in Unity. 
@@ -25,4 +26,9 @@ Folders:
 -files: has all the pdf files that are used in the materials page for the teachers
 -images: images used for the website
 -bat: part of the previous template a mail handler with php code
+
+Extra Details:
+
+The Cue Robot Tutorial Unity Project does not want to show up in the Student Page for some reason (the code is inserted in the StudentPage.html though).
+There is a link in the text of the title in the Student Page "Cue Tutorial" that has a link to the Tutorial.html that contains the project.
 
