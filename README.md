@@ -30,5 +30,5 @@ Folders:
 Extra Details:
 
 The Cue Robot Tutorial Unity Project does not want to show up in the Student Page for some reason (the code is inserted in the StudentPage.html though).
-There is a link in the text of the title in the Student Page "Cue Tutorial" that has a link to the Tutorial.html that contains the project.
+There is a link in the text of the title in the Student Page "Cue Tutorial" that has a link to the Tutorial.html that contains the project. The current build of the tutorial is a bit smaller than expected and some things look out of place.
 
