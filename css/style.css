@@ -495,7 +495,7 @@ a.donate:hover {
 }
 
 .page1 .text1 {
-    padding-top: 143.5px;
+    padding-top: 123px;
     margin-bottom: 143.5px;
     top: 5px;
 }
@@ -938,13 +938,13 @@ footer {
     left: 0px;
     top: 50px;
     width: 1050px;
-    height: 900px;
+    height: 930px;
 }
 
 #tealBlock {
     background: #2D728F;
     height: 200;
-    width: 510px;
+    width: 521px;
     padding-top: 10.5px;
     padding-bottom: 10.5px;
     margin-left: 31px;  
@@ -956,7 +956,7 @@ footer {
     background: #73BFB8;
     height: 200;
     width: 475px;
-    padding-top: 10.5px;
+    padding-top: 11px;
     padding-bottom: 10.5px;
     margin-left: 0px;
     margin-top: 0px;
@@ -1031,6 +1031,9 @@ footer {
 #movedown {
     top: -70px;
 }
+#notoppad{
+    padding-top: 0px;
+}
 
 .TealTitle {
     position: relative;
@@ -1041,6 +1044,19 @@ footer {
     padding-right: 50px;
     margin: 0 auto;
     left: 15px;
+    align-content: center;
+}
+
+.UnityTealTitle {
+    position: relative;
+    width: 630px;
+    height: 65px;
+    background: #2D728F;
+    padding-top: 30px;
+    padding-right: 50px;
+    margin: 0 auto;
+    left: 15px;
+    top:-10px;
     align-content: center;
 }
 

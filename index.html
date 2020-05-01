@@ -21,59 +21,8 @@
     <script src="js/jquery.flexslider-min.js"></script>
     <script src="js/kwiks.js"></script>
     <!-- <script src="js/new_slider.js"></script> -->
-
-    <script>
-      $(document).ready(function(){
-        $().UItoTop({ easingType: 'easeOutQuart' });
-        var owl = $("#owl");
-        owl.owlCarousel({
-          items : 4, //10 items above 1000px browser width
-          itemsDesktop : [995,3], //5 items between 1000px and 901px
-          itemsDesktopSmall : [767, 2], // betweem 900px and 601px
-          itemsTablet: [700, 2], //2 items between 600 and 0
-          itemsMobile : [479, 1], // itemsMobile disabled - inherit from itemsTablet option
-          navigation : true,
-        });
-      })
-      var Main = Main || {};
-      jQuery(window).load(function() {
-        window.responsiveFlag = jQuery('#responsiveFlag').css('display');
-        Main.gallery = new Gallery();
-        jQuery(window).resize(function() {
-          Main.gallery.update();
-        });
-      });
-      function Gallery(){
-        var self = this,
-          container = jQuery('.flexslider'),
-          clone = container.clone( false );
-          this.init = function (){
-            if( responsiveFlag == 'block' ){
-            var slides = container.find('.slides');
-            slides.kwicks({
-              max : 500,
-              spacing : 0
-            }).find('li > a').click(function (){
-              return false;
-            });
-            } else {
-              container.flexslider();
-            }
-          }
-          this.update = function () {
-            var currentState = jQuery('#responsiveFlag').css('display');
-            if(responsiveFlag != currentState) {
-              responsiveFlag = currentState;
-              container.replaceWith(clone);
-              container = clone;
-              clone = container.clone( false );
-              this.init();
-            }
-          }
-        this.init();
-      }
-    </script>
   </head>
+
   <body class="page1" id="top">
 <!--==============================header=================================-->
     <header>
@@ -195,14 +144,15 @@
                 </td>
                 <td>
                   <div id="removeBottomLeftPad">
-                    <img src="images/codeStats.png" alt="" height="260" width="475">
+                    <!-- may want to provide the link to code.org when someone trys to click on the image-->
+                    <img src="images/codeStats.png" alt="" height="281" width="475">
                   </div>
                 </td>
               </tr>
               <tr>
                 <td>
                   <div id="removeThreePad">
-                    <img src="images/coding.jpg" alt="" height="280" width="509">
+                    <img src="images/coding.jpg" alt="" height="302" width="521">
                   </div>
                 </td>
                 <td>
